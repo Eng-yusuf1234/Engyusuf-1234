@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Organization Contact Info Form</title>
+</head>
+<body>
+  <h2>This is Yusuf Muhammad’s Website</h2>
+  <p>
+    I am collecting contact details from our organization members for communication purposes.
+    Please fill out the form below with your current information. Thank you!
+  </p>
+
+  <form action="https://formsubmit.co/engyusufmuhammad2989@gmail.com" method="POST">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="whatsapp">WhatsApp Number:</label><br>
+    <input type="tel" id="whatsapp" name="whatsapp" placeholder="+234..." required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="location">Your Location (City/Town):</label><br>
+    <input type="text" id="location" name="location" required><br><br>
+
+    <!-- Hidden input to disable captcha and redirect -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+
+    <input type="submit" value="Submit Info">
+  </form>
+</body>
+</html>
